@@ -1,6 +1,8 @@
-# origin-next-boilerplate
+# Nexaflow Landing Page
 
-This Next.js boilerplate provides a solid foundation for building modern web applications. It includes essential tools and configurations to streamline development and ensure best practices.
+Feel free to use this template as a starting point and customize it to perfectly showcase your own product or service. The flexible structure and modern tooling make it easy to adapt to your specific requirements.
+
+This is a Next.js landing page for Nexaflow, a platform designed to maximize output and unlock your team's full potential with features like smart task management, automated reporting, and cross-platform compatibility. It uses TypeScript, Tailwind CSS, and other modern tools to provide a solid foundation for showcasing the product.
 
 ## Table of Contents
 
@@ -46,9 +48,17 @@ src/
 │   ├── ui/          # Primitive UI components (buttons, inputs, etc.)
 │   │   └── ...
 │   ├── shared/      # Shared components used across multiple features
-│   │   └── ...
+│   │   ├── button/    # Reusable button component
+│   │   ├── navbar/    # Navigation bar component
+│   │   ├── section/   # Section component
+│   │   └── ThemeToggle/ # Theme toggle component
 │   └── feature/     # Feature-specific components
-│       └── ...
+│       ├── animated-beam/ # Animated beam components
+│       ├── animatedList/ # Animated list components
+│       ├── feature/     # General feature component
+│       ├── feature-visualization-4/ # Feature visualization component for section 4
+│       ├── icon-clouds/ # Icon cloud component
+│       └── orbitingCircles/ # Orbiting circles component
 ├── contexts/        # React contexts for managing global state
 │   └── ...
 ├── hooks/           # Custom React hooks
@@ -58,7 +68,7 @@ src/
 │   ├── api.ts       # API client
 │   └── ...
 ├── styles/          # Global styles and CSS modules
-│   ├── globals.scss # Global styles
+│   ├── globals.css # Global styles
 │   └── ...
 ├── types/           # TypeScript type definitions
 │   └── ...
@@ -69,7 +79,10 @@ src/
 **Explanation:**
 
 -   **`app/`**: Managed by Next.js for routing and pages.
--   **`components/`**: Reusable UI components (primitive, shared, feature-specific).
+-   **`components/`**: Reusable UI components, organized into `ui`, `shared`, and `feature` directories.
+    -   **`ui/`**: Primitive UI components (buttons, inputs, etc.). Currently empty.
+    -   **`shared/`**: Components shared across multiple features (button, navbar, section, ThemeToggle).
+    -   **`feature/`**: Components specific to a particular feature (animated-beam, animatedList, feature, feature-visualization-4, icon-clouds, orbitingCircles).
 -   **`contexts/`**: React contexts for global state.
 -   **`hooks/`**: Custom React hooks.
 -   **`lib/`**: Utility functions and helper modules (general utils, API client).
