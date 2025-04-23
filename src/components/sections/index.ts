@@ -1,0 +1,15 @@
+export { HeaderSection } from './header';
+export { HeroSection } from './hero';
+export { TrustedBySection } from './trusted-by';
+export { BenefitsSection } from './benefits';
+export { FeatureSection1 } from './feature1';
+export { FeatureSection2 } from './feature2';
+export { FeatureSection3 } from './feature3';
+export { FeatureSection4 } from './feature4';
+export { StatsSection } from './stats';
+export { TestimonialSection } from './testimonial';
+export { FaqSection } from './faq';
+export { ContactSection } from './contact';
+export { PricingSection } from './pricing';
+export { CTASection } from './cta';
+export { FooterSection } from './footer';

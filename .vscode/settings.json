@@ -1,3 +1,4 @@
 {
-  "tailwindCSS.experimental.configFile": "/src/app/globlas.scss"
+  "tailwindCSS.experimental.configFile": "/src/app/globlas.scss",
+  "css.validate": false
 }
